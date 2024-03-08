@@ -1,2 +1,2 @@
 # tdd
-tdd exercise
+tdd practice
