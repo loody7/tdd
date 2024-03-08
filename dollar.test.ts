@@ -9,3 +9,11 @@ describe("달러 배수 테스트", () => {
         expect(product.amount).toBe(15);
     })
 })
+
+describe("달러 동등성 테스트", () => {
+    it("", () => {
+        const five = new Dollar(5);
+        expect(five.equals(new Dollar(5))).toBeTruthy();
+        expect(five.equals(new Dollar(6))).toBeFalsy();
+    }) 
+})
